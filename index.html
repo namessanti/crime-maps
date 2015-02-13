@@ -255,17 +255,6 @@
          }
             }
 			
-         var legend = new cdb.geo.ui.Legend({
-           type: "choropleth",
-           data: [
-             { name: "Low", value: "#FFC926" },
-             { name: "", value: "#76EC00" },
-             { name: "", value: "#00BAF8" },
-             { name: "High", value: "#D04CFD" }
-           ]
-         });
-         $('#map').append(legend.render().el);
-
 
             // Pull tiles from CartoDB's basemaps
             L.tileLayer('http://{s}.basemaps.cartocdn.com/dark_nolabels/{z}/{x}/{y}.png', {
